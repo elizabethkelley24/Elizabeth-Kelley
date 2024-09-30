@@ -1,0 +1,148 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #e6f7ff; /* Light Blue */
+    color: #002f6c; /* Navy */
+    line-height: 1.6;
+}
+
+/* Header */
+.header {
+    background-color: #002f6c; /* Navy */
+    color: white;
+    padding: 2rem 0;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.header h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.header p {
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+    font-style: italic;
+}
+
+/* Sections */
+section {
+    padding: 4rem 0;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: #002f6c; /* Navy */
+    border-bottom: 3px solid #00aaff; /* Light Blue */
+    display: inline-block;
+    padding-bottom: 0.5rem;
+}
+
+/* About Section */
+.about p {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    color: #002f6c;
+}
+
+/* Accomplishments */
+.accomplishments ul {
+    list-style-type: none;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.accomplishments li {
+    background-color: #ffffff;
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    font-size: 1.1rem;
+    text-align: left;
+}
+
+/* Portfolio */
+.portfolio .gallery {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.portfolio img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Contact */
+.contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact input, .contact textarea {
+    padding: 1rem;
+    border-radius: 10px;
+    border: 1px solid #00aaff; /* Light Blue */
+    background-color: #ffffff;
+    font-size: 1rem;
+    width: 100%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.contact button {
+    background-color: #002f6c; /* Navy */
+    color: white;
+    padding: 1rem;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact button:hover {
+    background-color: #00aaff; /* Light Blue */
+}
+
+/* Footer */
+.footer {
+    background-color: #002f6c; /* Navy */
+    color: white;
+    padding: 2rem 0;
+    text-align: center;
+    font-size: 0.9rem;
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+
+/* Center image in the middle of the page */
+.image-container {elizabethlibbykelley-photo.jpg}
+    text-align: center; /* Centers the image horizontally */
+    margin-top: 20px; /* Adds some space above the image */
+}
+
+.image-container img {
+    max-width: 100%; /* Ensures the image doesn't overflow the screen */
+    height: auto; /* Keeps the image's aspect ratio */
+    width: 300px; /* Set a width for the image (adjust as needed) */
+    border-radius: 15px; /* Adds rounded corners */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Adds a shadow for a nicer look */
+}
+
+}
+
